@@ -1,0 +1,77 @@
+# Временные файлы сборки
+Binaries/
+Build/
+Intermediate/
+DerivedDataCache/
+
+# Файлы проекта Visual Studio и Rider
+*.sln
+*.vcxproj
+*.vcxproj.filters
+*.vcxproj.user
+*.ueproj
+*.sdf
+*.suo
+*.opensdf
+*.VC.db
+*.VC.VC.opendb
+
+# Файлы апгрейда проекта
+UpgradeLog.htm
+
+# Кэш редактора
+*.autosave
+Saved/
+
+# Промежуточные файлы пакетирования
+StagedBuilds/
+
+# Пакеты плагинов
+*.gem
+
+# Файлы операционных систем
+.DS_Store
+Thumbs.db
+
+# Файлы отладки
+*.pdb
+*.iobj
+*.ipdb
+*.obj
+*.db
+
+# Файлы профилирования
+*.profraw
+
+# Конфиги IDE
+.vs/
+.idea/
+
+# Плагины (если не разрабатываете свои)
+# Plugins/ThirdParty/
+
+# Ассеты из Marketplace (обычно не коммитят)
+# Content/ThirdParty/
+
+# Исключения для конфигов (оставляем важные)
+!*.ini
+
+# Но исключаем конфиги редактора которые перегенерируются
+Saved/Config/*
+
+# Оставляем только основные конфиги
+!DefaultEngine.ini
+!DefaultGame.ini
+!DefaultEditor.ini
+!DefaultInput.ini
+
+# Исключения для исходных кодов C++
+Source/**/*.h
+Source/**/*.cpp
+Source/**/*.build.cs
+
+# Файлы проекта
+*.uproject
+
+# Пресеты статического анализа
+**/*.Analyze.xml
