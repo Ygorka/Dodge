@@ -70,8 +70,5 @@ Source/**/*.h
 Source/**/*.cpp
 Source/**/*.build.cs
 
-# Файлы проекта
-*.uproject
-
 # Пресеты статического анализа
 **/*.Analyze.xml
